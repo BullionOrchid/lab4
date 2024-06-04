@@ -1,4 +1,1 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/73fc32fc-0c6f-41ad-b210-ee050be7f32c/resourceGroups/myAppForm_group/providers/Microsoft.Web/sites/myAppForm",
-    "appService.deploySubpath": "."
-}
+
