@@ -47,15 +47,15 @@
 			<!-- STEP 4: Create a pair of FORM tags so that visitors can sign up for a newsletter -->
 
 			<!-- STEP 5: Add an action attribute to the FORM start tag that points to a file called "subscribe.php", and set the method attribute to "get" -->
-			<form action="suscribe.php" method="get">
+			<form action="subscribe.php" method="get">
 				<!-- STEP 6: Add an H3 element inside the FORM tags that reads, "Subscribe to Newsletter" -->
 				<h3>Subscribe to Newsletter</h3>
 				<!-- STEP 7a: Add a LABEL element for the email address -->
-				<label for="emailAdrress">Email Address:</label>
+				<label for="emailAddress">Email Address:</label>
 				<!-- STEP 7b: Add an INPUT element for the user to type their email address - set the type of INPUT to "email", add a name attribute that is set to "emailAddress", and an id attribute that is set to "emailAddress" -->
 				<!-- STEP 7c: Add the 'for' attribute to the above LABEL element, and set the value to match the 'id' value of the INPUT element -->
 				<!-- STEP 7d: Include the 'required' attribute on the above INPUT element so that users are forced to enter an email address before the form is submitted -->
-				<input type="email" name="emailAddrress" id="emailAddress" required />
+				<input type="email" name="emailAddress" id="emailAddress" required />
 				<!-- STEP 8a: Add a BUTTON element with the attribute type="submit" -->
 				<button type="submit">Subscribe</button>
 				<!-- STEP 8b: Set the content of the BUTTON element to read, "Subscribe" -->
